@@ -1,0 +1,17 @@
+
+onclick -> disparado quando recebe um click
+ondblclick -> disparado quando click duplo
+onmouseover -> disparado quando o mouse esta sobre 
+onmouseout -> disparado quando o mouse é movido para fora do elemento
+onmousemove -> disoarado quando o mouse é movido no elemento
+onmousedown -> disparado quando o clique do botão for pressionado 
+onmouseup -> disparado quando o clique do botão é liberado 
+onfocus -> disparado quando o elemento recebe o foco
+onchange -> disparado quando existe uma mudança de conteudo
+onblur -> disparado quando o elemento perde o foco
+onkeydown -> disparado qunado a tecla é pressionada
+onkeypress -> disparado quando uma tecla é pressionada e solta
+onkeyup -> disparado quando uma tecla é solta sobre um elemento
+onload -> disparado quando a pagina terminou de ser carregada 
+onresize -> disparado  quando há  um redimencionamento da janela. 
+
