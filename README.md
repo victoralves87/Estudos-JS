@@ -4,4 +4,6 @@
 * JavaScript
 
 
-![image](https://user-images.githubusercontent.com/112995941/215304450-2d1fa7b6-825b-478e-b521-caab628d49ea.png)
+---------------------
+
+ ![image](https://user-images.githubusercontent.com/112995941/215304450-2d1fa7b6-825b-478e-b521-caab628d49ea.png)
