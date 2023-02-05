@@ -1,0 +1,74 @@
+//COMANDO BASE PARA PEGAR A DATA
+
+let data = new Date()
+//console.log(data)
+
+//PEGAR O ANO COMPLETO COM 4 DIGITOS
+let ano = data.getFullYear()
+console.log(ano)
+
+//PEGAR O MÊS ATUAL ATUAL - DE 0 ATÉ 11 SENDO 0 JANEIRO E 11 DEZEMBRO
+let mes = data.getMonth()
+console.log(mes)
+
+//MOSTRA O MÊS NO FORMATO ESCRITO
+const MesesDoAno = ["janeiro", "fevereiro", "março","abril","maio","junho","julho","agosto", "setembro", "outubro", "novembro", "dezembro"]
+ let mesEscrito = MesesDoAno[data.getMonth()]
+ console.log(mesEscrito)
+
+ //MOSTRA O DIA DO MÊS 1 ATÉ 31
+ let diaMes = data.getDate()
+ console.log(diaMes)
+
+
+ //MOSTRA O DIA DA SEMANA
+ let diaSemana = data.getDay()
+ console.log(diaSemana)
+
+//MOSTRAR O DIA DA SEMANA ESCRITO
+ const DiasDaSemana = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta","sabado"]
+ let diaEscrito = DiasDaSemana[data.getDay()]
+ console.log(diaEscrito)
+
+ 
+ //PEGAR A HORA DE 0 ATÉ 23
+ let hora = data.getHours()
+ console.log(hora)
+
+
+ //PEGAR O MINUTOS DE 0 ATÉ 59
+ let minutos = data.getMinutes()
+ console.log(minutos)  
+
+
+ //PEGAR O MINUTOS DE 0 ATÉ 59
+ let segundos = data.getSeconds()
+ console.log(segundos)  
+
+
+ //PEGAR A DATA FORMATO BEASIL
+ let dataBR = data.toLocaleString("pt-BR")
+ console.log(dataBR)
+
+
+ //COMPARAR DATAS EX: VENCIMENTOS
+ 
+ let hoje = new Date()
+ let vencimento = new Date(2023, 1 , 06)
+
+ if(hoje > vencimento){
+    console.log("sua conta venceu!")
+ }else{
+    console.log("sua conta ainda não venceu!")
+ }
+
+
+
+//DIFERENÇA ENTRE DUAS DATAS EM DIAS
+
+let dataInicial = new Date()
+let dataFinal = new Date(2023, 11, 31)
+
+let diferencatempo = dataFinal.getTime() - dataInicial.getTime()
+
+console.log(`faltam ${diferencaDias} dias para o fim de 2023`)
